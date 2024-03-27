@@ -18,6 +18,7 @@ def div(a,b):
     r=a%b
     print("quotient is",q)
     print("remainder is",r)
+    return q
 def sqrt(a):
     x=math.sqrt(a)
     return x
@@ -48,7 +49,7 @@ while(True):
     elif choice==5:
          print("enter the number")
          num1=int(input('>'))
-         print("The squarerrot is",sqrt(num1))
+         print("The squareroot is",sqrt(num1))
     else:
         print("Exit")
 
